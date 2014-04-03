@@ -11,7 +11,7 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
-//    ofSetColor(255);
+
     shader.begin(); // This starts the shader, so anything we draw gets passed to the shader
 
         // We need to draw something to give the shader vertices to work with
