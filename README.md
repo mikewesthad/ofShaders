@@ -8,4 +8,8 @@ Same as the first example from the openFrameworks shaders tutorial.  This progra
 
 ![01_ColorMap](./01_ColorMap_Result.png "Results from 01_ColorMap")
 
+## 02_ConwaysGameOfLife ##
 
+[Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) written to run in a shader:
+
+![02_ConwaysGameOfLife](./02_ConwaysGameOfLife_Result.png "Results from 02_ConwaysGameOfLife")
