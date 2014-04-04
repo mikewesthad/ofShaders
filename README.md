@@ -1,11 +1,35 @@
 # ofShaders #
 
-As I work through the [openFrameworks shaders tutorial](http://openframeworks.cc/tutorials/graphics/shaders.html), I'll be uploading my own heavily commented shaders.
+As I work through the [openFrameworks shaders tutorial](http://openframeworks.cc/tutorials/graphics/shaders.html), I'll be uploading my own heavily commented shaders.  This will eventually take the form of a more guided tutorial.
 
-Resources:
 
-http://www.shaderific.com/glsl/
-http://en.wikibooks.org/wiki/GLSL_Programming
+**Topics to Eventually Explain:**
+
+- Vertices, faces, indices, normals, textures
+- Vectors, matrices and geometric projections
+- The mysterious rendering pipeline
+- GLSL syntax
+- Built-in variables from *both* openFrameworks and and GLSL
+	- This was (is) a big stumbling block for me.  Jumping into code where variables are defined for you behind the scene can be pretty confusing.
+- GPU for computational processing 
+- When to invest the time in writing shaders
+ 
+
+**Resources:**
+
+- [Shaderific](http://www.shaderific.com/glsl/) 
+	- Nice concise descriptions of the GLSL language
+	- It is targeted for openGL ES, the embedded systems (mobile) flavor of openGL, but it is still a helpful reference.
+- [openGL.org](https://www.opengl.org/wiki/Rendering_Pipeline_Overview)
+	- Not always the easiest to jump into without any background, but immensely helpful reference.
+- [Lighthouse3d.com](http://www.lighthouse3d.com/tutorials/glsl-core-tutorial/) 
+	- If you can get past their web design, then you'll find some worthwhile tutorials
+
+**Online Shader Galleries and Editors:**
+
+- [GLSL Sandbox](http://glsl.heroku.com/)
+- [shadertoy](https://www.shadertoy.com/)
+
 
 ## 01_ColorMap ##
 
@@ -25,3 +49,11 @@ TDB, something with using applying a magnifier effect or showing off the power o
 
 ![03_ConwayRevisited](./03_ConwayRevisited_Result.png "Results from 03_ConwayRevisited")
 
+
+## 04_GaussianBlur ##
+
+TDB, something with applying Gaussian Blur.  Standard sampling techniques only allow for a small blur radius before the effect breaks down (like this [github tutorial](https://github.com/mattdesl/lwjgl-basics/wiki/ShaderLesson5)).
+
+Since I wanted some non-realtime, high quality effects.  I wrote a script that generates the shaders on-the-fly based on the blur radius.  It will take enough samples to generate reasonably nice large blur radius effects, like:
+
+![04_GaussianBlur](./04_GaussianBlur_Result.png "Results from 04_GaussianBlur")
