@@ -17,6 +17,9 @@ As I work through the [openFrameworks shaders tutorial](http://openframeworks.cc
 
 **Resources:**
 
+- [openGL SIGGRAPH Talk](https://www.youtube.com/watch?v=T8gjVbn8VBk)
+	- Mammoth 3-hour introductory course from 2013 
+	- Nice overview of going from scratch to a complete program while also still leaving breadcrumbs that you can follow to deeper knowledge
 - [Shaderific](http://www.shaderific.com/glsl/) 
 	- Nice concise descriptions of the GLSL language
 	- It is targeted for openGL ES, the embedded systems (mobile) flavor of openGL, but it is still a helpful reference.
