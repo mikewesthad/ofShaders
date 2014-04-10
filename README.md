@@ -20,6 +20,10 @@ As I work through the [openFrameworks shaders tutorial](http://openframeworks.cc
 - [openGL SIGGRAPH Talk](https://www.youtube.com/watch?v=T8gjVbn8VBk)
 	- Mammoth 3-hour introductory course from 2013 
 	- Nice overview of going from scratch to a complete program while also still leaving breadcrumbs that you can follow to deeper knowledge
+- [Steven Wittens's 2013 Talk: Making WebGL Dance](https://www.youtube.com/watch?v=GNO_CYUjMK8)
+	- Easy-to-understand coverage of what is happening on the graphics card
+	- He has good coverage of rasterization, anti-aliasing, vertices
+	- He's less good at explaining the linear math and shader pipeline 
 - [Shaderific](http://www.shaderific.com/glsl/) 
 	- Nice concise descriptions of the GLSL language
 	- It is targeted for openGL ES, the embedded systems (mobile) flavor of openGL, but it is still a helpful reference.
