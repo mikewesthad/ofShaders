@@ -1,5 +1,7 @@
 # ofShaders #
 
+<img src="simple_thread.svg" height="300"/>
+
 ![test](./simple_thread.svg)
 
 As I work through the [openFrameworks shaders tutorial](http://openframeworks.cc/tutorials/graphics/shaders.html), I'll be uploading my own heavily commented shaders.  This will eventually take the form of a more guided tutorial.
